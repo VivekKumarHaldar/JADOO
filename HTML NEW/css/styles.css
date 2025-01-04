@@ -435,5 +435,56 @@
   width: 40%;
 }
 
-.trip2 > img {
+.trip2 > img{
+
+}
+
+
+
+
+/* __________________________________People Comment _____________________________ */
+
+.pComment{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+.pcText{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.pcText > span{
+    color: #5E6282;
+    font-size: 18px;
+    font-family: "poppins";
+    font-weight: 300;
+
+}
+
+.pcText > p{
+    color: #14183E;
+    font-size: 50px;
+    font-family: "Volkhov";
+    font-weight: bold;
+    margin-top: 5%;
+
+}
+
+.ccCircle{
+    display: flex;
+    gap: 5%;
+    margin-top:15%;
+}
+
+.pcCircle{
+    width: 10px;
+      height: 10px;
+      background-color:#E5E5E5;
+      border-radius: 50%;
 }
